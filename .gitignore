@@ -1,0 +1,54 @@
+# Power BI specific files
+*.pbix~
+*.pbix.tmp
+
+# Backup files
+*.bak
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (if using Python scripts for data processing)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# R (if using R for analytics)
+.Rhistory
+.RData
+.Rproj.user
+
+# Logs
+*.log
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Sensitive data (uncomment if needed)
+# *.csv
+# *.xlsx
+# *.json
+
+# Node modules (if using any JS tooling)
+node_modules/
